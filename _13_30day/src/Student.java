@@ -1,4 +1,4 @@
-package src;
+
 
 public class Student extends Person {
     private int[] scores;
@@ -13,7 +13,7 @@ public class Student extends Person {
     char calculate()
     {
         int sum = 0;
-        int average = 0;
+        int average;
         for(int i = 0; i < scores.length; i++)
             sum += scores[i];
         average = sum/ scores.length;

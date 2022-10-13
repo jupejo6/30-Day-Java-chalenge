@@ -1,5 +1,3 @@
-package src;
-
 public class myBook extends Book {
 
     int price;
