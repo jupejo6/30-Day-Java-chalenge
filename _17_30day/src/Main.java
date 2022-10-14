@@ -1,22 +1,25 @@
 import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.function.*;
-import java.util.regex.*;
-import java.util.stream.*;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
+
+
+import static java.lang.Integer.parseInt;
 
 
 
 public class Main{
+    static String Solution(String S){
+        try{
+            return Integer.toString(parseInt(S));
+        }
+        catch(NumberFormatException e) {
+            return ("Bad String");
+        }
+    }
+
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         String S = bufferedReader.readLine();
+        System.out.println(Solution(S));
 
         bufferedReader.close();
     }
