@@ -6,7 +6,7 @@ public class Main {
         String title = scanner.nextLine();
         String author = scanner.nextLine();
         int price = scanner.nextInt();
-        scanner.close();
+        scanner.close() ;
 
         Book book = new myBook(title, author, price);
         book.display();
