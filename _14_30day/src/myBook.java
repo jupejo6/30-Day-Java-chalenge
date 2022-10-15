@@ -1,6 +1,6 @@
 public class myBook extends Book {
 
-    int price;
+    int price ;
     myBook(String title, String author, int price)
     {
         super(title, author);
