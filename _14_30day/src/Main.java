@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class Main {
         int price = scanner.nextInt();
         scanner.close();
 
-        Book book = new myBook(title, author, price);
+        Book book = new MyBook(title, author, price);
         book.display();
     }
 }
