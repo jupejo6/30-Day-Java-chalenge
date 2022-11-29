@@ -1,9 +1,9 @@
 #30 day Java chalenge
 
-In this repository i finished every days of the "30 Day Challenge" from hackerrank.com, 
-using only my (freshly aquired) knowledge and some java tutorial websites.
+In this repository, I finished every day of the "30 Day Challenge" from hackerrank.com, 
+using only my (freshly acquired) knowledge and some Java tutorial websites.
 
-Sometimes my code wasnt fully accepted by hackerrank, so i made some unit tests, since hacker Rank provided only the necessary output, without my actual (in thoose cases wrong) one.
+When HackerRank didn't fully accept my code, I added some unit tests because HackerRank only provided the necessary output, 
+not my actual (and in some cases incorrect) one.
 
-
-All the 30 chalenges were accepted by hackerrank, im a proud owner of my 5 Star Gold medal. :)
+All the 30 challenges were accepted by HackerRank, and I am the proud owner of my 5 Star Gold Medal.
