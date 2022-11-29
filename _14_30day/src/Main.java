@@ -9,7 +9,7 @@ public class Main {
         int price = scanner.nextInt();
         scanner.close();
 
-        Book book = new MyBook(title, author, price);
+        Book book = new myBook(title, author, price);
         book.display();
     }
 }
