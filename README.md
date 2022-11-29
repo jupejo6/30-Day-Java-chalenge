@@ -1,4 +1,4 @@
-#30 day Java chalenge
+# 30 day Java chalenge
 
 In this repository, I finished every day of the "30 Day Challenge" from hackerrank.com, 
 using only my (freshly acquired) knowledge and some Java tutorial websites.
